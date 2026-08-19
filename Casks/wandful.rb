@@ -1,9 +1,9 @@
 cask "wandful" do
   arch arm: "aarch64", intel: "x64"
 
-  version "0.0.1"
-  sha256 arm:   "6aa745fbf186436fe7c52c19ef987571bd01c41a75524d764112533300b44330",
-         intel: "69925f5e5004ff5c0ab6f9d643d9fcd4d4285388afb43ba165613debc26d1568"
+  version "0.0.2"
+  sha256 arm:   "a22fcb50d4cefb1b585935c0ea2e632fb9c35e37f22f140d4968a09bc5edab36",
+         intel: "c54c9f57a6528c8f008162335da5c868a0e3bc06a5818e67229fae10aa340f5a"
 
   url "https://github.com/ostapondo/wandful/releases/download/v#{version}/Wandful_#{version}_#{arch}.dmg",
       verified: "github.com/ostapondo/wandful/"
